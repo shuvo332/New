@@ -1,0 +1,6 @@
+{
+  "name": "Invoice Auditor",
+  "description": "AI-powered invoice and system order screenshot auditor that detects missing items, wrong entries, quantity mismatches, and price discrepancies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

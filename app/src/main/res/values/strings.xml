@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Invoice Auditor</string>
+    <string name="app_full_title">Invoice &amp; Order Auditor</string>
+    <string name="app_tagline">Instant AI Discrepancy Detection</string>
+
+    <!-- User Profile & Header -->
+    <string name="auditor_name">Alex Morgan</string>
+    <string name="auditor_role">Senior Inventory Auditor</string>
+    <string name="auditor_id_badge">ID: AUD-4092</string>
+    <string name="auditor_branch">Hub: Metro Central</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_smart_audit">Upload SS &amp; Invoice</string>
+    <string name="nav_smart_audit_short">Smart Audit</string>
+    <string name="nav_audit_history">Audit History</string>
+    <string name="nav_mismatch_reports">Mismatch Reports</string>
+    <string name="nav_bag_management">Bag / Order Management</string>
+    <string name="nav_bag_management_short">Orders &amp; Bags</string>
+
+    <!-- Dashboard -->
+    <string name="quick_navigation_title">Quick Navigation</string>
+    <string name="kpi_audits_run">Audits Run</string>
+    <string name="kpi_discrepancies">Open Issues</string>
+    <string name="kpi_match_rate">Match Rate</string>
+    <string name="kpi_variance_caught">Variance Caught</string>
+    <string name="recent_audits_title">Recent Audits</string>
+    <string name="view_all">View All</string>
+    <string name="primary_cta_subtitle">Compare system screenshot against invoice photo</string>
+
+    <!-- Smart Audit -->
+    <string name="smart_audit_title">Smart Audit Engine</string>
+    <string name="smart_audit_subtitle">Upload both sources to detect missing items, quantity deltas &amp; price variances.</string>
+    <string name="upload_ss_title">Upload System Screenshot (SS)</string>
+    <string name="upload_ss_hint">Dashboard, POS, or ERP order screen</string>
+    <string name="upload_invoice_title">Upload Invoice Image</string>
+    <string name="upload_invoice_hint">Printed receipt or digital PDF snapshot</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_sample">Sample</string>
+    <string name="btn_load_demo_pair">Load Demo Pair</string>
+    <string name="btn_replace">Replace</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_run_audit">Run Instant Audit</string>
+    <string name="auditing_in_progress">Analyzing SS &amp; Invoice…</string>
+    <string name="sample_ai_notice_title">Sample AI Preview</string>
+    <string name="sample_ai_notice_body">Live Gemini multimodal vision comparison requires Firebase AI Logic. Showing a structured sample audit preview.</string>
+    <string name="label_order_ref">Order / Bag Reference (Optional)</string>
+    <string name="label_vendor_name">Vendor / Supplier (Optional)</string>
+
+    <!-- Audit Results -->
+    <string name="results_title">Audit Results</string>
+    <string name="section_missing_items">Missing Items</string>
+    <string name="section_mismatches">Wrong Entries / Mismatches</string>
+    <string name="section_matched_items">Matched Items</string>
+    <string name="btn_export_pdf">Export PDF</string>
+    <string name="btn_share_text">Share Text</string>
+    <string name="btn_copy_report">Copy</string>
+    <string name="mark_resolved">Resolve</string>
+    <string name="resolved_label">Resolved</string>
+    <string name="invoice_total_label">Invoice Total</string>
+    <string name="system_total_label">System Total</string>
+    <string name="variance_label">Net Variance</string>
+
+    <!-- History, Mismatches & Bag Management -->
+    <string name="search_audits_hint">Search order ID, vendor, SKU, or item…</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="btn_clear_filters">Reset Filters</string>
+    <string name="offline_room_badge">Offline Room Storage</string>
+    <string name="btn_new_audit">Start New Audit</string>
+    <string name="source_docs_offline">Source Documents (Offline)</string>
+    <string name="empty_audits_title">No Audits Found</string>
+    <string name="empty_audits_body">Run an instant comparison on Smart Audit to populate your offline audit history.</string>
+    <string name="empty_mismatches_title">All Clear</string>
+    <string name="empty_mismatches_body">No open discrepancies match your current filter.</string>
+    <string name="add_bag_order">New Bag / Order</string>
+    <string name="empty_bags_title">No Orders or Bags</string>
+    <string name="empty_bags_body">Add an order bag to track verification status before dispatch.</string>
+
+    <!-- Camera Scanner & Permissions -->
+    <string name="camera_scanner_title_ss">Scan System Screenshot</string>
+    <string name="camera_scanner_title_invoice">Scan Invoice Document</string>
+    <string name="camera_align_hint">Align document inside the teal guide frame</string>
+    <string name="camera_permission_title">Camera Access Needed</string>
+    <string name="camera_permission_rationale">Allow camera access to scan physical invoices, paper receipts, or dashboard screens directly inside Invoice Auditor.</string>
+    <string name="camera_permission_denied_note">Camera permission was denied. Enable Camera in App Settings, or use the System Camera / Photo Picker below.</string>
+    <string name="btn_grant_camera">Grant Camera Access</string>
+    <string name="btn_open_settings">Open App Settings</string>
+    <string name="btn_system_camera">System Camera</string>
+    <string name="cd_capture_photo">Capture photo</string>
+    <string name="cd_toggle_flash">Toggle flash</string>
+    <string name="cd_switch_camera">Switch camera lens</string>
+    <string name="cd_close_scanner">Close camera scanner</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_open_menu">Open navigation drawer</string>
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="cd_auditor_avatar">Auditor profile portrait</string>
+    <string name="cd_system_screenshot_preview">System screenshot preview</string>
+    <string name="cd_invoice_image_preview">Invoice image preview</string>
+    <string name="cd_delete_audit">Delete audit record</string>
+</resources>
